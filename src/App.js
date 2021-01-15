@@ -18,96 +18,99 @@ function App() {
   
 
   return (
-    <div className="App">
+
+    <div>
 
       <SideNav style={{ position: "fixed" }}
-  
-          onSelect={(selected) => {
-              
-            switch( selected ){
-              case "home":
-                home.current.scrollIntoView({ behavior: "smooth", block: "start" });
-                break;
+    
+      onSelect={(selected) => {
+          
+        switch( selected ){
+          case "home":
+            home.current.scrollIntoView({ behavior: "smooth", block: "start" });
+            break;
 
-              case "about":
-                about.current.scrollIntoView({ behavior: "smooth", block: "start" });
-                break;
+          case "about":
+            about.current.scrollIntoView({ behavior: "smooth", block: "start" });
+            break;
 
-              case "projects/plant":
-                pPlant.current.scrollIntoView({ behavior: "smooth", block: "start" });
-                break;
+          case "projects/plant":
+            pPlant.current.scrollIntoView({ behavior: "smooth", block: "start" });
+            break;
 
-              case "projects/arcade":
-                pArcade.current.scrollIntoView({ behavior: "smooth", block: "start" });
-                break;
+          case "projects/arcade":
+            pArcade.current.scrollIntoView({ behavior: "smooth", block: "start" });
+            break;
 
-              case "projects/longboard":
-                pLongboard.current.scrollIntoView({ behavior: "smooth", block: "start" });
-                break;
+          case "projects/longboard":
+            pLongboard.current.scrollIntoView({ behavior: "smooth", block: "start" });
+            break;
 
-              case "work":
-                work.current.scrollIntoView({ behavior: "smooth", block: "start" });
-                break;
+          case "work":
+            work.current.scrollIntoView({ behavior: "smooth", block: "start" });
+            break;
 
-              case "contact":
-                contact.current.scrollIntoView({ behavior: "smooth", block: "start" });
-                break;
-            }
+          case "contact":
+            contact.current.scrollIntoView({ behavior: "smooth", block: "start" });
+            break;
+        }
 
-          }}
-      >
-      <SideNav.Toggle />
-        <SideNav.Nav defdefaultSelected="home">
+      }}
+    >
+    <SideNav.Toggle />
+      <SideNav.Nav defdefaultSelected="home">
 
-            <NavItem eventKey="home">
-                <NavIcon>
-                    <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
-                </NavIcon>
-                <NavText> Home </NavText>
-            </NavItem>
+          <NavItem eventKey="home">
+              <NavIcon>
+                  <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
+              </NavIcon>
+              <NavText> Home </NavText>
+          </NavItem>
 
-            <NavItem eventKey="about">
-                <NavIcon>
-                    <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
-                </NavIcon>
-                <NavText> About Me </NavText>
-            </NavItem>
+          <NavItem eventKey="about">
+              <NavIcon>
+                  <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
+              </NavIcon>
+              <NavText> About Me </NavText>
+          </NavItem>
 
-            <NavItem eventKey="projects">
-                <NavIcon>
-                    <i className="fa fa-fw fa-line-chart" style={{ fontSize: '1.75em' }} />
-                </NavIcon>
-                <NavText> Projects + Hobbies </NavText>
+          <NavItem eventKey="projects">
+              <NavIcon>
+                  <i className="fa fa-fw fa-line-chart" style={{ fontSize: '1.75em' }} />
+              </NavIcon>
+              <NavText> Projects + Hobbies </NavText>
 
-                <NavItem eventKey="projects/plant">
-                    <NavText> Plant Waterer </NavText>
-                </NavItem>
+              <NavItem eventKey="projects/plant">
+                  <NavText> Plant Waterer </NavText>
+              </NavItem>
 
-                <NavItem eventKey="projects/arcade">
-                    <NavText> Arcade Machine </NavText>
-                </NavItem>
+              <NavItem eventKey="projects/arcade">
+                  <NavText> Arcade Machine </NavText>
+              </NavItem>
 
-                <NavItem eventKey="projects/longboard">
-                    <NavText> Electric Longboard </NavText>
-                </NavItem>
-            </NavItem>
+              <NavItem eventKey="projects/longboard">
+                  <NavText> Electric Longboard </NavText>
+              </NavItem>
+          </NavItem>
 
-            <NavItem eventKey="work">
-                <NavIcon>
-                    <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
-                </NavIcon>
-                <NavText> Recent Work </NavText>
-            </NavItem>
+          <NavItem eventKey="work">
+              <NavIcon>
+                  <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
+              </NavIcon>
+              <NavText> Recent Work </NavText>
+          </NavItem>
 
-            <NavItem eventKey="contact">
-                <NavIcon>
-                    <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
-                </NavIcon>
-                <NavText> Contact </NavText>
-            </NavItem>
+          <NavItem eventKey="contact">
+              <NavIcon>
+                  <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
+              </NavIcon>
+              <NavText> Contact </NavText>
+          </NavItem>
 
-          </SideNav.Nav>
-      </SideNav>
+        </SideNav.Nav>
+    </SideNav>
+
+    <div className="App">
 
       <header className="App-header" ref={home}>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
@@ -168,6 +171,7 @@ function App() {
       </div>
 
     </div>
+  </div>
   );
 }
 
