@@ -21,7 +21,7 @@ function App() {
 
     <div>
 
-      <SideNav style={{ position: "fixed" }}
+      <SideNav style={{ position: "fixed", background:"#8B4000" }}
     
       onSelect={(selected) => {
           
