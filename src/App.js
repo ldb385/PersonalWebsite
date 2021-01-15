@@ -86,7 +86,7 @@ function App() {
                 <NavItem eventKey="projects/arcade">
                     <NavText> Arcade Machine </NavText>
                 </NavItem>
-                
+
                 <NavItem eventKey="projects/longboard">
                     <NavText> Electric Longboard </NavText>
                 </NavItem>
@@ -117,18 +117,54 @@ function App() {
 
       <div class="section" id="about" ref={about}>
         <h1 className="Title">About Me</h1>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
       </div>
 
       <div class="section" id="projects" ref={projects}>
         <h1 className="Title">Projects + Hobbies</h1>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
       </div>
 
       <div class="section" id="work" ref={work}>
         <h1 className="Title">Recent Work</h1>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
       </div>
 
       <div class="section" id="contact" ref={contact}>
         <h1 className="Title">Contact</h1>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
+        <p> blah, blah, blah </p>
       </div>
 
     </div>
