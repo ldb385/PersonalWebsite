@@ -152,10 +152,14 @@ function App() {
             </button></p>
           </div>
           <br/>
-          <pre>
-            I am a persueing a degree in Computer Science and Mathematics at the University of Saskatechewan.
-          </pre>
-
+          <div className="App-about-info-text">
+            <h2>
+              Hi, I'm Liam Bigelow
+            </h2>
+            <pre>
+              I am a persueing a degree in Computer Science and Mathematics at the University of Saskatechewan.
+            </pre>
+          </div>
         </div>
       </div>
 

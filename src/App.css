@@ -36,7 +36,12 @@
 }
 
 .App-about-info {
-  margin-left: 5%;
+  margin-left: 15%;
+}
+
+.App-about-info-text {
+  padding-left: 340px;
+  text-align: left;
 }
 
 .App-projects {
