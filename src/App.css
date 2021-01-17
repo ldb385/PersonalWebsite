@@ -30,21 +30,26 @@
 }
 
 .App-about {
-  background-color: white;
+  background-color: #fefefe;
   min-height: 100vh;
-  border: 1px solid white;
+  border: 1px solid #fefefe;
+}
+
+.App-about-info {
+  margin-left: 5%;
 }
 
 .App-projects {
-  background-color: white;
+  color: white;
+  background-color: #9b806e;
   min-height: 100vh;
-  border: 1px solid white;
+  border: 1px solid  #9b806e;
 }
 
 .App-work {
-  background-color: white;
+  background-color:  #fefefe;
   min-height: 100vh;
-  border: 1px solid white;
+  border: 1px solid  #fefefe;
 }
 
 .App-contact {
