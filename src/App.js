@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './App.css';
+import './profile.css';
 import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
@@ -136,15 +137,23 @@ function App() {
 
       <div className="App-about" id="about" ref={about}>
         <h1 className="Title">About Me</h1>
-        <p> blah, blah, blah </p>
-        <p> blah, blah, blah </p>
-        <p> blah, blah, blah </p>
-        <p> blah, blah, blah </p>
-        <p> blah, blah, blah </p>
-        <p> blah, blah, blah </p>
-        <p> blah, blah, blah </p>
-        <p> blah, blah, blah </p>
-        <p> blah, blah, blah </p>
+        <pre>
+          <div className="card">
+            <img border="0" alt="Liam" src="https://avatars3.githubusercontent.com/u/55117132?s=460&u=e8c6eae8ece4f58cdd641f96ec60f28c8f280875&v=4" width="100%" height="100%" />
+            <h1>Liam Bigelow</h1>
+            <h3>University of Saskatechewan</h3>
+            <p>Saskatoon, SK, 2017 - 2021</p>
+            <p>Bachelor of Science in Computer Science</p>
+            <p>Minor in Mathematics</p>
+            <p><button onClick={(selected) => { 
+                contact.current.scrollIntoView({ behavior: "smooth", block: "start" }); }
+              }>
+              Contact
+            </button></p>
+          </div>
+          I am a persueing a degree in Computer Science and Mathematics at the University of Saskatechewan.
+
+        </pre>
       </div>
 
       <div className="App-projects" id="projects" ref={projects}>
