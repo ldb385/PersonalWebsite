@@ -29,6 +29,31 @@
   color: #61dafb;
 }
 
+.App-about {
+  background-color: white;
+  min-height: 100vh;
+  border: 1px solid white;
+}
+
+.App-projects {
+  background-color: white;
+  min-height: 100vh;
+  border: 1px solid white;
+}
+
+.App-work {
+  background-color: white;
+  min-height: 100vh;
+  border: 1px solid white;
+}
+
+.App-contact {
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  border: 1px solid #282c34;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
