@@ -25,6 +25,8 @@ function App() {
 
       <SideNav style={{ position: "fixed", background:"#8B4000" }}
     
+      
+
       onSelect={(selected) => {
 
         console.log( selected )
@@ -39,6 +41,8 @@ function App() {
             break;
 
           case "projects":
+            // this doesnt actually function, for some reason package does not pass selection when drop down has children
+            // work arrount is placing on click on hobbies page.
             projects.current.scrollIntoView({ behavior: "smooth", block: "start" });
             break;
 
@@ -82,7 +86,11 @@ function App() {
               <NavText> About Me </NavText>
           </NavItem>
 
-          <NavItem eventKey="projects">
+          <NavItem eventKey="projects" disabled={false} 
+          onClick={(selected) => { 
+            // this is a work around
+            projects.current.scrollIntoView({ behavior: "smooth", block: "start" }); }
+          }>
               <NavIcon>
                   <i className="fas fa-code-branch" style={{ fontSize: '1.75em' }} />
               </NavIcon>
