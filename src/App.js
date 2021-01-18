@@ -92,7 +92,8 @@ function App() {
           onClick={(selected) => { 
             // this is a work around
             projects.current.scrollIntoView({ behavior: "smooth", block: "start" }); }
-          }>
+          }
+          >
               <NavIcon>
                   <i className="fas fa-code-branch" style={{ fontSize: '1.75em' }} />
               </NavIcon>
@@ -154,10 +155,16 @@ function App() {
           <br/>
           <div className="App-about-info-text">
             <h2>
-              Hi, I'm Liam Bigelow
+              Hi There, I'm Liam Bigelow
             </h2>
             <pre>
-              I am a persueing a degree in Computer Science and Mathematics at the University of Saskatechewan.
+              I am a persueing a degree in Computer Science and Mathematics at the University of Saskatechewan. <br/>
+              I enjoy problem solving and developing novel solutions. <br/>
+              <br/>
+              I firmly believe that any skill, subject, or excersize can be learned and eventually mastered. <br/>
+              This belief has allowed me to comfortably explore new situations and explore many different hobbies such as: <br/>
+              wood working, baking, cooking, Programming, and Mathematics
+              
             </pre>
           </div>
         </div>
