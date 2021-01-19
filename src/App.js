@@ -191,34 +191,35 @@ function App() {
           <h1 className="Title">Projects + Hobbies</h1>
           <div className="App-project">
 
-            <div className="project" ref={pGame}>
+            <div className="project2" ref={pGame}>
                 <h2>Tic Tac Toe</h2>
             </div>
 
             <br/>
 
-            <div className="project" ref={pPlant}>
-                <h2>Plant Waterer</h2>
-                <img src="https://github.com/ldb385/Hobby-Projects/blob/master/PlantWaterer/Plant1.jpg?raw=true" />
+            <div style={{float: "left"}} className="project1" ref={pPlant}>
+              <img src="https://github.com/ldb385/Hobby-Projects/blob/master/PlantWaterer/Plant1.jpg?raw=true" />
+              <h2>Plant Waterer</h2>
             </div>
             
-            <br/>
 
-            <div className="project" ref={pArcade}>
-                <h2>Arcade Machine</h2>
-                <img src="https://github.com/ldb385/Hobby-Projects/blob/master/RasPiArcade/RasPiArcade3.jpg?raw=true" />
-                <img src="https://github.com/ldb385/Hobby-Projects/blob/master/RasPiArcade/RasPiArcade2.jpg?raw=true" />
-            </div>
-            
-            <br/>
-
-            <div className="project" ref={pLongboard}>
-                <h2>Electric Longboard</h2>
-                <img src="https://github.com/ldb385/Hobby-Projects/blob/master/ElectricLongboard/ElectricBoard1.jpg?raw=true" />
+            <div style={{float: "right"}} className="project1" ref={pArcade}>
+              <img src="https://github.com/ldb385/Hobby-Projects/blob/master/RasPiArcade/RasPiArcade2.jpg?raw=true" />
+              <h2>Arcade Machine</h2>
             </div>
 
+
+            <div className="project1" ref={pLongboard} >
+              <img src="https://github.com/ldb385/Hobby-Projects/blob/master/ElectricLongboard/ElectricBoard1.jpg?raw=true" />
+              <h2>Electric Longboard</h2>
+            </div>
+
+            <br/>
           </div>
+          
+          <br/>
         </div>
+
 
         <div className="App-work" id="work" ref={work}>
           <h1 className="Title">Recent Work</h1>
