@@ -210,7 +210,7 @@ function App() {
 
 
             <div className="project1" ref={pLongboard} >
-              <img src="https://github.com/ldb385/Hobby-Projects/blob/master/ElectricLongboard/ElectricBoard1.jpg?raw=true" />
+              <img src="https://github.com/ldb385/Hobby-Projects/blob/master/ElectricLongboard/ElectricBoard3.jpg?raw=true" />
               <h2>Electric Longboard</h2>
             </div>
 
