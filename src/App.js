@@ -199,18 +199,22 @@ function App() {
 
             <div className="project" ref={pPlant}>
                 <h2>Plant Waterer</h2>
+                <img src="https://github.com/ldb385/Hobby-Projects/blob/master/PlantWaterer/Plant1.jpg?raw=true" />
             </div>
             
             <br/>
 
             <div className="project" ref={pArcade}>
                 <h2>Arcade Machine</h2>
+                <img src="https://github.com/ldb385/Hobby-Projects/blob/master/RasPiArcade/RasPiArcade3.jpg?raw=true" />
+                <img src="https://github.com/ldb385/Hobby-Projects/blob/master/RasPiArcade/RasPiArcade2.jpg?raw=true" />
             </div>
             
             <br/>
 
             <div className="project" ref={pLongboard}>
                 <h2>Electric Longboard</h2>
+                <img src="https://github.com/ldb385/Hobby-Projects/blob/master/ElectricLongboard/ElectricBoard1.jpg?raw=true" />
             </div>
 
           </div>
