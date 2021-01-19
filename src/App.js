@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 import './profile.css';
+import './projects.css';
 import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
@@ -188,10 +189,31 @@ function App() {
 
         <div className="App-projects" id="projects" ref={projects}>
           <h1 className="Title">Projects + Hobbies</h1>
-          <div className="App-project" id="pGame" ref={pGame} ></div>
-          <div className="App-project" id="pPlant" ref={pPlant} ></div>
-          <div className="App-project" id="pArcade" ref={pArcade} ></div>
-          <div className="App-project" id="pLongboard" ref={pLongboard} ></div>
+          <div className="App-project">
+
+            <div className="project" ref={pGame}>
+                <h2>Tic Tac Toe</h2>
+            </div>
+
+            <br/>
+
+            <div className="project" ref={pPlant}>
+                <h2>Plant Waterer</h2>
+            </div>
+            
+            <br/>
+
+            <div className="project" ref={pArcade}>
+                <h2>Arcade Machine</h2>
+            </div>
+            
+            <br/>
+
+            <div className="project" ref={pLongboard}>
+                <h2>Electric Longboard</h2>
+            </div>
+
+          </div>
         </div>
 
         <div className="App-work" id="work" ref={work}>
