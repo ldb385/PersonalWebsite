@@ -101,3 +101,8 @@
 .Title {
   text-decoration-line: underline;
 }
+
+.background {
+  color: #282c34;
+  background-color:  #fefefe;
+}

@@ -192,7 +192,8 @@ function App() {
           <div className="App-project">
 
             <div className="project2" ref={pGame}>
-                <h2>Tic Tac Toe</h2>
+              <div className="background" id="tictactoe"></div>
+              <h2>Tic Tac Toe</h2>
             </div>
 
             <br/>
