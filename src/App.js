@@ -198,19 +198,19 @@ function App() {
             <br/>
 
             <div style={{float: "left"}} className="project1" ref={pPlant}>
-              <img src="https://github.com/ldb385/Hobby-Projects/blob/master/PlantWaterer/Plant1.jpg?raw=true" />
+              <img alt="PlantWaterer" src="https://github.com/ldb385/Hobby-Projects/blob/master/PlantWaterer/Plant1.jpg?raw=true" />
               <h2>Plant Waterer</h2>
             </div>
             
 
             <div style={{float: "right"}} className="project1" ref={pArcade}>
-              <img src="https://github.com/ldb385/Hobby-Projects/blob/master/RasPiArcade/RasPiArcade2.jpg?raw=true" />
+              <img alt="ArcadeMachine" src="https://github.com/ldb385/Hobby-Projects/blob/master/RasPiArcade/RasPiArcade2.jpg?raw=true" />
               <h2>Arcade Machine</h2>
             </div>
 
 
             <div className="project1" ref={pLongboard} >
-              <img src="https://github.com/ldb385/Hobby-Projects/blob/master/ElectricLongboard/ElectricBoard3.jpg?raw=true" />
+              <img alt="ElectricLongboard" src="https://github.com/ldb385/Hobby-Projects/blob/master/ElectricLongboard/ElectricBoard3.jpg?raw=true" />
               <h2>Electric Longboard</h2>
             </div>
 
