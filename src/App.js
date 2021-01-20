@@ -104,7 +104,7 @@ function App() {
                 <NavText> Projects + Hobbies </NavText>
 
                 <NavItem eventKey="projects/game">
-                    <NavText> TicTacToe </NavText>
+                    <NavText> Checkers </NavText>
                 </NavItem>
 
                 <NavItem eventKey="projects/plant">
@@ -192,8 +192,8 @@ function App() {
           <div className="App-project">
 
             <div className="project2" ref={pGame}>
-              <div className="background" id="tictactoe"></div>
-              <h2>Tic Tac Toe</h2>
+              <div className="background" id="checkers"></div>
+              <h2>Checkers</h2>
             </div>
 
             <br/>
