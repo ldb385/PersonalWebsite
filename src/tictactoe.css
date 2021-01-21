@@ -32,6 +32,7 @@
     background-color: #fefefe;
 }
 
+
 .square:focus {
     outline: none;
 }
@@ -43,7 +44,21 @@
     flex-direction: row;
 }
 
-.game-info {
+.game-settings {
     margin-left: 20px;
+}
+
+.game-settings button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    border: 2px solid#cc6600;
+    color:#9b806e;
+    float: left;
+    font-size: 90%;
+    height: 20%;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
 }
   

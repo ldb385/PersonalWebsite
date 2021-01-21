@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './checkers.css';
+import './tictactoe.css';
 import App from './App';
-import Game from './checkers';
+import Game from './tictactoe';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -17,7 +17,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Game />
   </React.StrictMode>,
-  document.getElementById('checkers')
+  document.getElementById('tictactoe')
 );
 
 
